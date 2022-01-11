@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fc5c85a1-246e-4487-95b3-2ff8c3a69e75": {
+      "ProjectGuid": "fc5c85a1-246e-4487-95b3-2ff8c3a69e75",
+      "DisplayName": "01_AspNetMVC",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
