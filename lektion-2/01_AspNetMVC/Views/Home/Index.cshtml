@@ -1,0 +1,11 @@
+﻿@model _01_AspNetMVC.Models.IndexViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<partial name="_Navbar" />
+
+<div class="container mt-5">
+    <partial name="Cards/_CardDeck" model="Model.Products" />
+</div>
