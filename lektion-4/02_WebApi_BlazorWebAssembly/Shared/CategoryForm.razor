@@ -1,0 +1,24 @@
+﻿<EditForm Model="@model" OnSubmit="@SubmitHandle" class="row g-3">
+    <div class="col-auto">
+        <InputText @bind-Value="model.Name" class="form-control" />
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-3">Skapa</button>
+    </div>
+</EditForm>
+<p>@errorMessage</p>
+
+@code {
+    private CategoryFormModel model = new();
+    private string errorMessage = "";
+
+    private async Task SubmitHandle()
+    {
+        var result = await Http.PostAsJsonAsync("https://localhost:7253/api/categories", model);
+        if (!result.IsSuccessStatusCode)
+            errorMessage = "något gick fel";
+
+        model = new();
+        errorMessage = "";
+    }
+}

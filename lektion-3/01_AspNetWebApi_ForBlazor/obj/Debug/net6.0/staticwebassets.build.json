@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "YVnMOFjetbMFvi27omA8YIcw3/TOnaFV0EGvoELUGaw=",
+  "Source": "01_AspNetWebApi_ForBlazor",
+  "BasePath": "_content/01_AspNetWebApi_ForBlazor",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

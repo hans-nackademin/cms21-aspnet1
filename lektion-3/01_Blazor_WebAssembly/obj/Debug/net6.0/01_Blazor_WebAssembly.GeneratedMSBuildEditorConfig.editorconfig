@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = browser
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = true
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = 01_Blazor_WebAssembly
+build_property.RootNamespace = 01_Blazor_WebAssembly
+build_property.ProjectDir = C:\Users\HansMattin-Lassei\Documents\Utbildning\CMS21\cms21-aspnet1\lektion-3\01_Blazor_WebAssembly\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\HansMattin-Lassei\Documents\Utbildning\CMS21\cms21-aspnet1\lektion-3\01_Blazor_WebAssembly
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/HansMattin-Lassei/Documents/Utbildning/CMS21/cms21-aspnet1/lektion-3/01_Blazor_WebAssembly/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HansMattin-Lassei/Documents/Utbildning/CMS21/cms21-aspnet1/lektion-3/01_Blazor_WebAssembly/Pages/Computer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcHV0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HansMattin-Lassei/Documents/Utbildning/CMS21/cms21-aspnet1/lektion-3/01_Blazor_WebAssembly/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HansMattin-Lassei/Documents/Utbildning/CMS21/cms21-aspnet1/lektion-3/01_Blazor_WebAssembly/Pages/Laptop.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFwdG9wLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HansMattin-Lassei/Documents/Utbildning/CMS21/cms21-aspnet1/lektion-3/01_Blazor_WebAssembly/Pages/Network.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV0d29yay5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HansMattin-Lassei/Documents/Utbildning/CMS21/cms21-aspnet1/lektion-3/01_Blazor_WebAssembly/Pages/Tablet.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFibGV0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HansMattin-Lassei/Documents/Utbildning/CMS21/cms21-aspnet1/lektion-3/01_Blazor_WebAssembly/Shared/Card.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HansMattin-Lassei/Documents/Utbildning/CMS21/cms21-aspnet1/lektion-3/01_Blazor_WebAssembly/Shared/CardDeck.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXENhcmREZWNrLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HansMattin-Lassei/Documents/Utbildning/CMS21/cms21-aspnet1/lektion-3/01_Blazor_WebAssembly/Shared/Navbar.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdmJhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HansMattin-Lassei/Documents/Utbildning/CMS21/cms21-aspnet1/lektion-3/01_Blazor_WebAssembly/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HansMattin-Lassei/Documents/Utbildning/CMS21/cms21-aspnet1/lektion-3/01_Blazor_WebAssembly/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/HansMattin-Lassei/Documents/Utbildning/CMS21/cms21-aspnet1/lektion-3/01_Blazor_WebAssembly/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-jc3vhygpbw

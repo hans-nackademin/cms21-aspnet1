@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "af294f27-4f29-42c9-8988-62b97eb1815e": {
+      "ProjectGuid": "af294f27-4f29-42c9-8988-62b97eb1815e",
+      "DisplayName": "01_WebApi_AspNetWebApi",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "4f1a5428-1d53-4887-a0f7-3b338657ddf2": {
+      "ProjectGuid": "4f1a5428-1d53-4887-a0f7-3b338657ddf2",
+      "DisplayName": "02_WebApi_BlazorWebAssembly",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

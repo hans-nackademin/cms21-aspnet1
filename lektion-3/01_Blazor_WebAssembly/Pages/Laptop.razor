@@ -1,0 +1,14 @@
+﻿@page "/products/laptop"
+
+<h3>Laptop</h3>
+<CardDeck Products="products" />
+
+
+@code {
+    private IEnumerable<Product> products = new List<Product>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await Http.GetFromJsonAsync<List<Product>>("https://localhost:7123/api/Products?subcategory=laptops");
+    }
+}

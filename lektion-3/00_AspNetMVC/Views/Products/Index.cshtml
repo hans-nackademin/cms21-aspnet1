@@ -1,0 +1,6 @@
+﻿@model IEnumerable<_00_AspNetMVC.Models.Product>
+
+@foreach(var item in Model)
+{
+    <p>@item.Id @item.Name<br>@item.Category/@item.SubCategory</p>
+}

@@ -1,0 +1,10 @@
+﻿@model IEnumerable<_00_AspNetMVC.Models.Product>
+
+<div class="container mt-5">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        @foreach(var item in Model)
+        {
+            <partial name="_Card" model="item" />
+        }
+    </div>
+</div>

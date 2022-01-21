@@ -1,0 +1,23 @@
+﻿<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <div class="container">
+        <NavLink class="navbar-brand" href="" Match="NavLinkMatch.All">ASP.NET MVC DEMO</NavLink>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                    <NavLink class="nav-link dropdown-toggle" href="products" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Dator & Surfplatta
+                    </NavLink>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><NavLink class="dropdown-item" href="products/laptop">Laptop</NavLink></li>
+                        <li><NavLink class="dropdown-item" href="products/computer">Stationära datorer</NavLink></li>
+                        <li><NavLink class="dropdown-item" href="products/tablet">Surfplattor</NavLink></li>
+                        <li><NavLink class="dropdown-item" href="products/network">Nätverk</NavLink></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

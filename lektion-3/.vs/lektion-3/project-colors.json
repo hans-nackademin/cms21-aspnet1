@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "88b3ec4c-3db4-401e-9d44-cdf161bc73a0": {
+      "ProjectGuid": "88b3ec4c-3db4-401e-9d44-cdf161bc73a0",
+      "DisplayName": "00_AspNetMVC",
+      "ColorIndex": 0
+    },
+    "a7afc5a7-4646-4e05-8a61-8891da4a36cb": {
+      "ProjectGuid": "a7afc5a7-4646-4e05-8a61-8891da4a36cb",
+      "DisplayName": "WebApplication1",
+      "ColorIndex": 1
+    },
+    "98b9b135-f84b-43d5-8761-bfdccce41105": {
+      "ProjectGuid": "98b9b135-f84b-43d5-8761-bfdccce41105",
+      "DisplayName": "00_AspNetMVC",
+      "ColorIndex": 2
+    },
+    "2cfd7ec4-f6e5-48e6-ac00-041b4272991a": {
+      "ProjectGuid": "2cfd7ec4-f6e5-48e6-ac00-041b4272991a",
+      "DisplayName": "01_Blazor_WebAssembly",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "5bf962c5-307b-4e10-9794-3c76ffc20c9b": {
+      "ProjectGuid": "5bf962c5-307b-4e10-9794-3c76ffc20c9b",
+      "DisplayName": "01_AspNetWebApi_ForBlazor",
+      "ColorIndex": 4
+    },
+    "cad8778c-50ed-4b4d-9df2-eefab08313ac": {
+      "ProjectGuid": "cad8778c-50ed-4b4d-9df2-eefab08313ac",
+      "DisplayName": "BlazorApp1",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
