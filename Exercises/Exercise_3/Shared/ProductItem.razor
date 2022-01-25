@@ -1,0 +1,19 @@
+﻿@using Exercise_3.Models
+
+<div class="col">
+    <div class="card h-100">
+        <div class="card-body">
+            <h5 class="card-title">@Product.Name</h5>
+            <p class="card-text">@Product.Description</p>
+        </div>
+        <div class="card-footer">
+            <p>@Product.CategoryName</p>
+        </div>
+    </div>
+</div>
+
+
+@code {
+    [Parameter]
+    public Product Product { get; set; }
+}

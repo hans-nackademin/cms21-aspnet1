@@ -1,0 +1,19 @@
+﻿@page "/products"
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach(var item in products)
+        {
+            <ProductItem Product="@item" />
+        }
+    </div>
+</div>
+
+@code {
+    private IEnumerable<Product> products = new List<Product>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await ProductService.ReadAsync();
+    }
+}

@@ -1,0 +1,30 @@
+﻿@using Exercise_3.Models.Forms
+<EditForm Model="model" OnSubmit="OnFormSubmit">
+    <InputText @bind-Value="model.BarCode" />
+    <InputText @bind-Value="model.Name" />
+    <InputTextArea @bind-Value="model.Description" />
+    <InputNumber @bind-Value="model.Price" />
+
+    <InputSelect @bind-Value="model.CategoryName">
+        @foreach(var category in categories)
+        {
+         <option value="@category.Name">@category.Name</option>   
+        }
+    </InputSelect>
+</EditForm>
+
+@code {
+    public ProductCreateForm model = new ProductCreateForm();
+    private IEnumerable<Category> categories = new List<Category>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        categories = await CategoryService.ReadAsync();
+    }
+
+
+    private async Task OnFormSubmit()
+    {
+        //await ProductService.CreateAsync(model);
+    }
+}
