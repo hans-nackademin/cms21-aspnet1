@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "39cb7b4e-cb69-429d-a2d1-7bbde334f690": {
+      "ProjectGuid": "39cb7b4e-cb69-429d-a2d1-7bbde334f690",
+      "DisplayName": "WebApi",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "5582f7a8-bafb-4073-a6fd-b51ffc876ad9": {
+      "ProjectGuid": "5582f7a8-bafb-4073-a6fd-b51ffc876ad9",
+      "DisplayName": "BlazorApp",
+      "ColorIndex": 1
+    },
+    "2b673842-f8da-44a6-804c-36903ed567a0": {
+      "ProjectGuid": "2b673842-f8da-44a6-804c-36903ed567a0",
+      "DisplayName": "Repository",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

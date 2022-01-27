@@ -1,0 +1,56 @@
+﻿@page "/cases"
+<SitePageTitle Title="Ärenden" />
+
+<EditForm Model="caseForm" OnSubmit="HandleOnSubmitAsync" class="mb-5">
+    <div class="mb-3">
+        <InputTextArea @bind-Value="caseForm.Description" />
+    </div>
+    <div class="mb-3">
+    <InputSelect @bind-Value="caseForm.CustomerId">
+        @foreach(var customer in customers) {
+            <option value="@customer.Id">@customer.DisplayName</option>
+        }
+    </InputSelect>
+    </div>
+    <div>
+        <button type="submit" class="btn btn-secondary">Skicka in</button>
+    </div>
+</EditForm>
+
+
+
+@if(items == null)
+{
+    <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+    </div>   
+}
+else
+{
+    @foreach(var item in items)
+    {
+        <p>@item.Id - @item.Description</p>
+    }
+}
+
+
+
+@code {
+    private CaseForm caseForm = new CaseForm();
+
+    private IEnumerable<Customer> customers = new List<Customer>();
+    private Case[] items;
+
+    protected override async Task OnInitializedAsync()
+    {
+        customers = await Http.GetFromJsonAsync<IEnumerable<Customer>>("https://localhost:7222/api/customers");
+        items = await Http.GetFromJsonAsync<Case[]>("https://localhost:7222/api/cases");
+    }
+
+    private async Task HandleOnSubmitAsync()
+    {
+        await Http.PostAsJsonAsync("https://localhost:7222/api/cases", caseForm);
+        items = await Http.GetFromJsonAsync<Case[]>("https://localhost:7222/api/cases");
+        caseForm = new();
+    }
+}
