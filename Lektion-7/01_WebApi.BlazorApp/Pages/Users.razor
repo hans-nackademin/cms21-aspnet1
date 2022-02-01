@@ -1,0 +1,32 @@
+﻿@page "/users"
+
+<div class="row justify-content-center align-items-center mb-5">
+    <div class="col-12 col-lg-6">
+        <UserCreateForm />
+    </div>
+</div>
+
+
+<h3>Users</h3>
+@if(users == null)
+{
+    <p>Inga objekt</p>
+}
+else
+{
+    @foreach(var user in users)
+    {
+        <p class="mb-3">@user.FirstName @user.LastName (@user.Email)</p>
+    }
+}
+
+
+@code {
+    private IEnumerable<UserModel> users = new List<UserModel>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        users = await Http.GetFromJsonAsync<IEnumerable<UserModel>>("https://localhost:7155/api/users");
+    }
+
+}

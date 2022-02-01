@@ -1,0 +1,38 @@
+﻿<h3>Create New User</h3>
+
+<EditForm Model="model" OnValidSubmit="HandleSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <InputText class="form-control" placeholder="First Name" @bind-Value="model.FirstName" />
+    </div>
+    <div class="mb-3">
+        <InputText class="form-control" placeholder="LastName" @bind-Value="model.LastName" />
+    </div>
+    <div class="mb-3">
+        <InputText class="form-control" placeholder="Email address" @bind-Value="model.Email" />
+    </div>
+    <div class="mb-3">
+        <InputText type="password" class="form-control" placeholder="Password" @bind-Value="model.Password" />
+    </div>
+    <div class="mb-3">
+        <InputText type="password" class="form-control" placeholder="Confirm Password" @bind-Value="model.ConfirmPassword" />
+    </div>
+    <div class="mb-3">
+        <button type="submit" class="btn btn-primary">Create User</button>
+    </div>
+</EditForm>
+
+
+@code {
+    private UserCreateViewModel model = new UserCreateViewModel();
+
+    private async Task HandleSubmit()
+    {
+        var result = await Http.PostAsJsonAsync("https://localhost:7155/api/users", model);
+        
+        if(result.IsSuccessStatusCode)
+            model = new UserCreateViewModel();
+    }
+}
