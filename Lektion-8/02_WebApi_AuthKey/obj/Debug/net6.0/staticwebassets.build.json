@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "MCC3f5ZwdXWhw1lNvLSJg9ajzMtMbseRxbBrDblsbNI=",
+  "Source": "02_WebApi_AuthKey",
+  "BasePath": "_content/02_WebApi_AuthKey",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
