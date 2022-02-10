@@ -1,0 +1,52 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container mt-5">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+
+    @foreach(var product in ViewBag.Products)
+    {
+        <div class="col">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">@product.Name</h5>
+                    <p class="card-text">@product.Price</p>
+                </div>
+                <div class="card-footer">
+                    <a asp-controller="Home" asp-action="AddToCart" asp-route-id="@product.Id" class="btn btn-success">Add</a>
+                </div>
+            </div>
+        </div>
+    }
+
+    </div>
+
+</div>
+<div class="container mt-5">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+
+        @if(ViewBag.ShoppingCart == null)
+        {
+            <p>inga produkter finns i kundvagnen</p>
+        }
+        else
+        {
+            @foreach(var item in ViewBag.ShoppingCart)
+            {
+                <div class="col">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Product.Name</h5>
+                            <p class="card-text">@item.Product.Price</p>
+                        </div>
+                        <div class="card-footer">
+                            <p class="card-text">@item.Quantity</p>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+
+    </div>
+
+</div>

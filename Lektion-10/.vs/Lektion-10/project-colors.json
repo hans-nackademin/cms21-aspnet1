@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "55dc7486-3f02-4d57-ba05-c0a4a2528f50": {
+      "ProjectGuid": "55dc7486-3f02-4d57-ba05-c0a4a2528f50",
+      "DisplayName": "00_WebApi.WithAuthenication",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "cc7b07c3-aecf-407d-b318-723f53e55327": {
+      "ProjectGuid": "cc7b07c3-aecf-407d-b318-723f53e55327",
+      "DisplayName": "00_WebApi.AspNetMVC",
+      "ColorIndex": 1
+    },
+    "e3bbb4c2-598d-459c-a902-179209dd2532": {
+      "ProjectGuid": "e3bbb4c2-598d-459c-a902-179209dd2532",
+      "DisplayName": "01_ShoppingCart.AspNetMVC",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
